@@ -9,11 +9,10 @@ const config = {
     projectId: "supportapp-fc4b8",
     storageBucket: "supportapp-fc4b8.appspot.com",
     messagingSenderId: "805548432631",
-    appId: "1:805548432631:web:82ba369082b872b45c07f2",
-    measurementId: "${config.measurementId}"
+    appId: "1:805548432631:web:82ba369082b872b45c07f2"
 };
-firebase.initializeApp(config);
 
+firebase.initializeApp(config);
 firebase.firestore().settings(settings);
 
 export default firebase;
